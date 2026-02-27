@@ -1,1 +1,46 @@
+1. Prepare the project folder
 
+Create a main folder named CYBER on your computer and open it in VS Code. Inside this folder, keep these files:
+
+app.py – handles the backend logic
+
+index.html – contains the chat interface
+
+.env – stores your Gemini API key securely
+
+requirements.txt – lists the required Python libraries
+
+Make sure .env is a file, not a folder.
+
+2. Install Python and required libraries
+
+Ensure Python is installed on your system. Then open the terminal in VS Code inside your project folder and install the required libraries listed in your requirements file. This allows Flask to run the server and Gemini to generate responses.
+
+3. Add your Gemini API key
+
+Open the .env file and paste your Gemini API key there. This key connects CYBER to the Gemini AI service.
+Keep this file private and never upload it publicly.
+
+4. Start the backend server
+
+Run the backend using the Python command in the terminal.
+If everything is correct, the terminal will show that the server is running on a local address.
+
+5. Open the chatbot in your browser
+
+Open your web browser and go to the local server address shown in the terminal.
+You will see the CYBER chat interface. You can type messages and receive AI responses.
+
+6. Verify everything is working
+
+Check the following:
+
+a. The frontend loads without errors
+
+b. Messages are sent successfully
+
+c. AI responses appear correctly
+
+d. No errors are shown in the terminal
+
+e. If all these work, your CYBER assistant is fully functional.
